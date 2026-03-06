@@ -47,7 +47,7 @@ function getDateSeries(startStr) {
     
     return result;
 }
-fetch("/subs.json")
+fetch("subs.json")
     .then(res => res.json())
     .then(data => {
         const sum = data.reduce((acc, n) => acc + n, 0);
