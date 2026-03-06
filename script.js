@@ -506,7 +506,7 @@ function loadSculksidianSkin() {
   img.onerror = () => {
     console.log("error")
   };
-  img.src = "/SculksidianSkinWithShadows.png";
+  img.src = "SculksidianSkinWithShadows.png";
 }
 
 loadSculksidianSkin();
